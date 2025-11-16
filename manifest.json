@@ -4,78 +4,74 @@
   "platform": "4.3.0",
   "metadata": {
     "appmode": "shiny",
-    "entrypoint": "app.R",
-    "primary_rmd": null,
-    "primary_html": null,
-    "content_category": null,
-    "has_parameters": false
+    "entrypoint": "app.R"
   },
   "packages": {
-    "R": {
-      "version": "4.3.0",
-      "repositories": [
-        {
-          "Name": "CRAN",
-          "URL": "https://cran.rstudio.com/"
+    "R": [
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "shiny",
+          "Version": "1.8.0",
+          "Imports": "methods, utils, grDevices, httpuv, mime, jsonlite, xtable, fontawesome, htmltools, R6, sourcetools, later, promises, tools, crayon, rlang, fastmap, withr, commonmark, glue, bslib, cachem, ellipsis, lifecycle"
         }
-      ]
-    },
-    "shiny": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "shiny",
-        "Version": "1.8.0"
+      },
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "ggplot2",
+          "Version": "3.4.4",
+          "Imports": "cli, glue, grDevices, grid, gtable, isoband, lifecycle, MASS, mgcv, rlang, scales, stats, tibble, vctrs, withr"
+        }
+      },
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "dplyr",
+          "Version": "1.1.4",
+          "Imports": "cli, generics, glue, lifecycle, magrittr, methods, pillar, R6, rlang, tibble, tidyselect, utils, vctrs"
+        }
+      },
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "plotly",
+          "Version": "4.10.3",
+          "Imports": "tools, scales, httr, jsonlite, magrittr, digest, viridisLite, base64enc, htmltools, htmlwidgets, tidyr, hexbin, RColorBrewer, dplyr, vctrs, tibble, lazyeval, rlang, crosstalk, purrr, data.table, promises"
+        }
+      },
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "forestplot",
+          "Version": "3.1.3",
+          "Imports": "grid, magrittr, checkmate, abind"
+        }
+      },
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "DT",
+          "Version": "0.31",
+          "Imports": "htmltools, htmlwidgets, jsonlite, magrittr, crosstalk, jquerylib, promises"
+        }
+      },
+      {
+        "Source": "CRAN",
+        "Repository": "https://cran.rstudio.com/",
+        "description": {
+          "Package": "readr",
+          "Version": "2.1.4",
+          "Imports": "cli, clipr, crayon, hms, lifecycle, methods, rlang, R6, tibble, utils, vroom"
+        }
       }
-    },
-    "ggplot2": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "ggplot2",
-        "Version": "3.4.4"
-      }
-    },
-    "dplyr": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "dplyr",
-        "Version": "1.1.4"
-      }
-    },
-    "plotly": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "plotly",
-        "Version": "4.10.3"
-      }
-    },
-    "forestplot": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "forestplot",
-        "Version": "3.1.3"
-      }
-    },
-    "DT": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "DT",
-        "Version": "0.31"
-      }
-    },
-    "readr": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "description": {
-        "Package": "readr",
-        "Version": "2.1.4"
-      }
-    }
+    ]
   },
   "files": {
     "app.R": {
