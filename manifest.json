@@ -9,38 +9,31 @@
   "packages": {
     "shiny": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     },
     "ggplot2": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     },
     "dplyr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     },
     "plotly": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     },
     "DT": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     },
     "readr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     },
     "forestplot": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com/",
-      "Requirements": []
+      "Repository": "https://cran.rstudio.com/"
     }
   },
   "files": {
