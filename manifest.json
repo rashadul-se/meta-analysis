@@ -1,82 +1,55 @@
 {
-  "version": 1,
-  "locale": "en_US",
-  "platform": "4.3.0",
-  "metadata": {
-    "appmode": "shiny",
-    "entrypoint": "app.R"
-  },
-  "packages": {
-    "R": [
+  "R": {
+    "Version": "4.3.0",
+    "Repositories": [
       {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "shiny",
-          "Version": "1.8.0",
-          "Imports": "methods, utils, grDevices, httpuv, mime, jsonlite, xtable, fontawesome, htmltools, R6, sourcetools, later, promises, tools, crayon, rlang, fastmap, withr, commonmark, glue, bslib, cachem, ellipsis, lifecycle"
-        }
-      },
-      {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "ggplot2",
-          "Version": "3.4.4",
-          "Imports": "cli, glue, grDevices, grid, gtable, isoband, lifecycle, MASS, mgcv, rlang, scales, stats, tibble, vctrs, withr"
-        }
-      },
-      {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "dplyr",
-          "Version": "1.1.4",
-          "Imports": "cli, generics, glue, lifecycle, magrittr, methods, pillar, R6, rlang, tibble, tidyselect, utils, vctrs"
-        }
-      },
-      {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "plotly",
-          "Version": "4.10.3",
-          "Imports": "tools, scales, httr, jsonlite, magrittr, digest, viridisLite, base64enc, htmltools, htmlwidgets, tidyr, hexbin, RColorBrewer, dplyr, vctrs, tibble, lazyeval, rlang, crosstalk, purrr, data.table, promises"
-        }
-      },
-      {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "forestplot",
-          "Version": "3.1.3",
-          "Imports": "grid, magrittr, checkmate, abind"
-        }
-      },
-      {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "DT",
-          "Version": "0.31",
-          "Imports": "htmltools, htmlwidgets, jsonlite, magrittr, crosstalk, jquerylib, promises"
-        }
-      },
-      {
-        "Source": "CRAN",
-        "Repository": "https://cran.rstudio.com/",
-        "description": {
-          "Package": "readr",
-          "Version": "2.1.4",
-          "Imports": "cli, clipr, crayon, hms, lifecycle, methods, rlang, R6, tibble, utils, vroom"
-        }
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
       }
     ]
   },
-  "files": {
-    "app.R": {
-      "checksum": "0"
+  "Packages": {
+    "shiny": {
+      "Package": "shiny",
+      "Version": "1.8.0",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "ggplot2": {
+      "Package": "ggplot2",
+      "Version": "3.4.4",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "plotly": {
+      "Package": "plotly",
+      "Version": "4.10.3",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "forestplot": {
+      "Package": "forestplot",
+      "Version": "3.1.3",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "DT": {
+      "Package": "DT",
+      "Version": "0.31",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
+    "readr": {
+      "Package": "readr",
+      "Version": "2.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN"
     }
-  },
-  "users": null
+  }
 }
