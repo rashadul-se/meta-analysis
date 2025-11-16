@@ -6,7 +6,43 @@
     "appmode": "shiny",
     "entrypoint": "app.R"
   },
-  "packages": null,
+  "packages": {
+    "shiny": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    },
+    "ggplot2": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    },
+    "dplyr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    },
+    "plotly": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    },
+    "DT": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    },
+    "readr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    },
+    "forestplot": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com/",
+      "Requirements": []
+    }
+  },
   "files": {
     "app.R": {
       "checksum": "0"
